@@ -74,4 +74,17 @@ api.update = (req, res) => {
     });
 };
 
+api.pageNSort = (req, res) => {
+    neDB.find({ _id: req.params.id }).sort({ $set: req.body -1 }).exec((exception, cards) => {
+        if (exception) {
+          const setence = "CANT LIST";
+          console.error(setence, exception);
+  
+          res.status(exception.status | 404);
+          res.json({ mensagem: setence });
+        }
+        console.log("SORTED AND PAGE", cards);
+        res.json(cards);
+      });
+};
 module.exports = api
