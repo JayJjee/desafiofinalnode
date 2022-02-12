@@ -4,7 +4,7 @@ const api = {}
 api.save = (req, res) => {
     const canonical = req.body
     neDB.insert(canonical, (exception, cards) => {
-        if(exception) { // undefined ele é igual a false
+        if(exception) {
             const setence = 'CANT SAVE'
             console.error(setence, exception)
 
@@ -61,7 +61,7 @@ api.delete = (req, res) => {
 };
 
 api.update = (req, res) => {
-    neDB.update({ _id: req.params.id }, {$set: req.body.$set}, { multi: true }, (exception, customers) => {
+    neDB.update({ _id: req.params.id }, {$set: req.body}, { multi: true }, (exception, customers) => {
         if (exception) {
           const setence = "CANT UPDATE";
           console.error(setence, exception);

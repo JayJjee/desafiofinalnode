@@ -1,2 +1,6 @@
 {"id":1,"cardNumber":"4444 3333 2222 1111","embossName":"João do Brasil","customerName":"João da Silva do Brasil","documentNumber":"23.567.234-0","motherName":"Maria da Silva do Brasil","address":"Rua do Brasil","city":"São Paulo","_id":"QUs1rJc8iM2QU9Qj"}
 {"id":2,"cardNumber":"3333 4444 1111 2222","embossName":"Joan do Brasil","customerName":"Joan da Silva do Brasil","documentNumber":"23.512.234-0","motherName":"Mariana da Silva do Brasil","address":"Rua de Brasilia","city":"São Paulo do Norte","_id":"d6yRqwWix7xFxid1"}
+{"$$deleted":true,"_id":"QUs1rJc8iM2QU9Qj"}
+{"$$deleted":true,"_id":"d6yRqwWix7xFxid1"}
+{"cardNumber":"4444 3333 2222 1111","embossName":"Danilo Rocha","customerName":"João da Silva do Brasil","documentNumber":"23.567.234-01","motherName":"Maria ","address":"Rua do Brasil","city":"São Paulo","_id":"Do5n7ESoVvpsNlNk"}
+{"cardNumber":"4444 3333 2222 1111","embossName":"Danilo Rocha","customerName":"João da Silva do Brasil","documentNumber":"23.567.234-01","motherName":"Adriana","address":"Rua do Brasil","city":"São Paulo","_id":"Do5n7ESoVvpsNlNk"}
