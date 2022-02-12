@@ -8,4 +8,5 @@ module.exports = (app) => {
         .get(api.findOne)
         .put(api.update)
         .delete(api.delete)
+        .get(api.pageNSort)
 }
